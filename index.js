@@ -15,14 +15,13 @@ function subtract (a, b) {
   return a - b;
 }
 
-let n = 1;
 
-function increment(n) {
+function inc(n) {
   n++;
   return n;
 }
 
-function decrement(n) {
+function dec(n) {
   --n;
   return n;
 }
@@ -37,14 +36,3 @@ function preserveDecimal(n) {
   return n;
 }
 
-function preserveDecimal(n) {
-  var n = parseFloat('2.222');
-  parseFloat(n, 10);
-  return 2.222;
-}
-
-function makeInt(n) {
-  var n = parseInt('0x2328', 10) + '<br>';
-  parseInt('0x2328', 10);
-  return 0;
-}
